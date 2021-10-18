@@ -2,14 +2,14 @@
 import styles from './header.module.scss';
 import { FaShoppingCart } from 'react-icons/fa';
 
-import container from '@components/Container';
+import Container from '@components/Container';
 
 
 
 const Header = () => {
     return (
         <header className={styles.header}>
-            <container className={styles.headerContainer}>
+            <Container className={styles.headerContainer}>
             <p className={styles.headerTitle}>
                 Hyper Bros. Trading Cards
             </p>
@@ -19,7 +19,7 @@ const Header = () => {
             <FaShoppingCart />
                 $0.00
             </p>
-            </container>
+            </Container>
         </header>
 
 
