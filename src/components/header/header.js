@@ -1,5 +1,5 @@
 
-import styles from './header.module.scss';
+import styles from './Header.module.scss';
 import { FaShoppingCart } from 'react-icons/fa';
 
 import Container from '@components/Container';
